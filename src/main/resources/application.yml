@@ -9,8 +9,10 @@ spring:
     show-sql: false
 
 # Groq AI Configuration
+# IMPORTANT: Replace with your actual Groq API key before running
+# Get your API key from https://console.groq.com/
 groq:
-  api-key: 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
+  api-key: ${GROQ_API_KEY:your-groq-api-key-here}
   model: openai/gpt-oss-120b
 
 server:
