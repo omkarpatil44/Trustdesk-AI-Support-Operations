@@ -1,0 +1,79 @@
+[
+  {
+    "orderId": "ORD-1001",
+    "customerId": "CUST-001",
+    "productName": "Wireless Bluetooth Headphones",
+    "productCategory": "Electronics",
+    "amount": 79.99,
+    "status": "DELIVERED",
+    "purchaseDate": "2024-07-15T10:00:00",
+    "deliveryDate": "2024-07-20T14:30:00",
+    "warrantyExpiryDate": "2025-07-15T10:00:00"
+  },
+  {
+    "orderId": "ORD-1002",
+    "customerId": "CUST-001",
+    "productName": "USB-C Charging Cable",
+    "productCategory": "Accessories",
+    "amount": 14.99,
+    "status": "DELIVERED",
+    "purchaseDate": "2024-08-01T09:00:00",
+    "deliveryDate": "2024-08-05T11:00:00",
+    "warrantyExpiryDate": "2025-02-01T09:00:00"
+  },
+  {
+    "orderId": "ORD-1003",
+    "customerId": "CUST-002",
+    "productName": "Smart Fitness Watch",
+    "productCategory": "Electronics",
+    "amount": 199.99,
+    "status": "DELIVERED",
+    "purchaseDate": "2024-09-10T12:00:00",
+    "deliveryDate": "2024-09-15T16:00:00",
+    "warrantyExpiryDate": "2025-09-10T12:00:00"
+  },
+  {
+    "orderId": "ORD-1004",
+    "customerId": "CUST-003",
+    "productName": "Ergonomic Office Chair",
+    "productCategory": "Furniture",
+    "amount": 349.00,
+    "status": "SHIPPED",
+    "purchaseDate": "2024-10-01T08:00:00",
+    "deliveryDate": null,
+    "warrantyExpiryDate": "2026-10-01T08:00:00"
+  },
+  {
+    "orderId": "ORD-1005",
+    "customerId": "CUST-004",
+    "productName": "Portable Power Bank 20000mAh",
+    "productCategory": "Electronics",
+    "amount": 45.00,
+    "status": "DELIVERED",
+    "purchaseDate": "2024-06-20T15:00:00",
+    "deliveryDate": "2024-06-25T10:00:00",
+    "warrantyExpiryDate": "2025-06-20T15:00:00"
+  },
+  {
+    "orderId": "ORD-1006",
+    "customerId": "CUST-005",
+    "productName": "Noise Cancelling Earbuds",
+    "productCategory": "Electronics",
+    "amount": 129.99,
+    "status": "DELIVERED",
+    "purchaseDate": "2024-04-10T13:00:00",
+    "deliveryDate": "2024-04-14T09:00:00",
+    "warrantyExpiryDate": "2025-04-10T13:00:00"
+  },
+  {
+    "orderId": "ORD-1007",
+    "customerId": "CUST-002",
+    "productName": "Laptop Stand Adjustable",
+    "productCategory": "Accessories",
+    "amount": 59.99,
+    "status": "CANCELLED",
+    "purchaseDate": "2024-10-05T11:00:00",
+    "deliveryDate": null,
+    "warrantyExpiryDate": null
+  }
+]

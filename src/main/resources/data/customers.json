@@ -1,0 +1,42 @@
+[
+  {
+    "customerId": "CUST-001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-0101",
+    "accountStatus": "ACTIVE",
+    "createdAt": "2024-01-15T10:30:00"
+  },
+  {
+    "customerId": "CUST-002",
+    "name": "Bob Martinez",
+    "email": "bob.martinez@example.com",
+    "phone": "+1-555-0102",
+    "accountStatus": "ACTIVE",
+    "createdAt": "2024-03-22T14:45:00"
+  },
+  {
+    "customerId": "CUST-003",
+    "name": "Carol Chen",
+    "email": "carol.chen@example.com",
+    "phone": "+1-555-0103",
+    "accountStatus": "SUSPENDED",
+    "createdAt": "2023-11-05T09:00:00"
+  },
+  {
+    "customerId": "CUST-004",
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "phone": "+1-555-0104",
+    "accountStatus": "ACTIVE",
+    "createdAt": "2024-06-10T16:20:00"
+  },
+  {
+    "customerId": "CUST-005",
+    "name": "Eva Rossi",
+    "email": "eva.rossi@example.com",
+    "phone": "+1-555-0105",
+    "accountStatus": "ACTIVE",
+    "createdAt": "2024-02-28T11:15:00"
+  }
+]

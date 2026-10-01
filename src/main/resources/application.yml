@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:trustdesk.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+# Groq AI Configuration
+groq:
+  api-key: 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
+  model: openai/gpt-oss-120b
+
+server:
+  port: 8083
