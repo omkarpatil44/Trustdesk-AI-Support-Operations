@@ -1,0 +1,32 @@
+[
+  {
+    "toolName": "start_refund_review",
+    "description": "Initiates a refund review process for a given order. Requires human approval before execution.",
+    "requiresApproval": true,
+    "parameters": ["orderId", "reason", "refundAmount"]
+  },
+  {
+    "toolName": "create_replacement_order",
+    "description": "Creates a replacement order for a defective product under warranty. Requires human approval before execution.",
+    "requiresApproval": true,
+    "parameters": ["orderId", "productName", "shippingAddress"]
+  },
+  {
+    "toolName": "lock_customer_account",
+    "description": "Temporarily locks a customer account due to suspected unauthorized access. Requires human approval.",
+    "requiresApproval": true,
+    "parameters": ["customerId", "reason"]
+  },
+  {
+    "toolName": "send_tracking_update",
+    "description": "Sends a tracking update email to the customer. Does not require human approval.",
+    "requiresApproval": false,
+    "parameters": ["orderId", "customerId", "message"]
+  },
+  {
+    "toolName": "escalate_to_supervisor",
+    "description": "Escalates the ticket to a human supervisor for further review. Does not require approval.",
+    "requiresApproval": false,
+    "parameters": ["ticketId", "reason", "summary"]
+  }
+]

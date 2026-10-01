@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:trustdesk.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+# Groq AI Configuration
+# IMPORTANT: Replace with your actual Groq API key before running
+# Get your API key from https://console.groq.com/
+groq:
+  api-key: ${GROQ_API_KEY:your-groq-api-key-here}
+  model: openai/gpt-oss-120b
+
+server:
+  port: 8083
